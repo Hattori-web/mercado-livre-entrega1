@@ -11,7 +11,7 @@ O conteúdo institucional deve ser revisado pelo grupo e complementado com infor
 
 ## Desenvolvimento
 
-### Não houve contato com a organização devido a: ser apenas eu, uma única pessoa no projeto, e por também ser uma empresa de alto porte e multinacional.
+### Não houve contato com a organização devido a: ser apenas eu, uma única pessoa no projeto, e por também ser uma empresa de grande porte e multinacional.
 
 ### Estrutura técnica
 
