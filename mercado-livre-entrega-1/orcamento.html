@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orçamento | Mercado Livre — Entrega 1</title>
+</head>
+<body>
+<header><h1>Mercado Livre</h1><p>Projeto acadêmico — Entrega 1: estrutura HTML5</p></header>
+<nav aria-label="Navegação principal"><ul><li><a href="index.html">Início</a></li>
+<li><a href="contato.html">Contato</a></li>
+<li><a href="orcamento.html">Orçamento</a></li>
+<li><a href="paginas/como-comprar.html">Como comprar</a></li>
+<li><a href="paginas/como-vender.html">Como vender</a></li>
+<li><a href="paginas/mercado-pago.html">Mercado Pago</a></li>
+<li><a href="paginas/mercado-envios.html">Mercado Envios</a></li>
+<li><a href="paginas/compra-garantida.html">Compra Garantida</a></li>
+<li><a href="paginas/categorias.html">Categorias</a></li>
+<li><a href="paginas/seguranca.html">Segurança</a></li></ul></nav>
+<main><header><h1>Solicitação de orçamento para vendedores</h1></header>
+<section><h2>Planeje sua operação de vendas</h2><p>Esta página demonstra uma solicitação de informações para um vendedor que deseja avaliar custos e recursos de uma operação no marketplace. O Mercado Livre calcula condições conforme categoria, anúncio, venda e logística; consulte sempre os valores exibidos na conta.</p>
+<form action="https://formsubmit.co/kaua.rodrigues003@cs.unicid.edu.br" method="post"><fieldset><legend>Dados da solicitação</legend>
+<label for="empresa">Nome da empresa ou loja</label><input id="empresa" name="empresa" type="text" required>
+<label for="cnpj">CNPJ</label><input id="cnpj" name="cnpj" type="text" placeholder="00.000.000/0000-00" pattern="[0-9]{2}\.[0-9]{3}\.[0-9]{3}/[0-9]{4}-[0-9]{2}" required>
+<label for="categoria">Categoria principal</label><input id="categoria" name="categoria" type="text" required>
+<label for="quantidade">Quantidade estimada de anúncios</label><input id="quantidade" name="quantidade" type="number" min="1" required>
+<label for="necessidade">O que você deseja avaliar?</label><textarea id="necessidade" name="necessidade" rows="6" required></textarea>
+<label for="email-orcamento">E-mail de retorno</label><input id="email-orcamento" name="email" type="email" required>
+<button type="submit">Solicitar informações</button>
+</fieldset></form></section>
+<section><h2>Importante</h2><p>Este formulário é uma peça acadêmica. Para publicar, substitua o destinatário do atributo <code>action</code> por um serviço de formulário ou backend autorizado pelo grupo.</p></section>
+<article><h2>Próximo passo</h2><p>Após organizar os dados da operação, consulte as condições exibidas na plataforma.</p></article>
+</main>
+<footer><p>Projeto acadêmico sobre o Mercado Livre. Não é um canal oficial de atendimento.</p><nav aria-label="Navegação complementar"><a href="contato.html">Contato</a></nav></footer>
+</body>
+</html>
